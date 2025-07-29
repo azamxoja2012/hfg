@@ -1,0 +1,90 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    header {
+      background-color: #000;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+      color: gold;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      font-size: 14px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .language-play {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .play-now {
+      background-color: gold;
+      color: black;
+      padding: 10px 20px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+
+    .hero {
+      position: relative;
+      height: 80vh;
+      background-image: url(image\ 5.png);
+    
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 20%;
+      background-color: #F1A90054;
+      padding: 20px 30px;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .buttons .pc {
+      background-color: gold;
+      color: black;
+      font-weight: bold;
+      padding: 10px 20px;
+    }
+
+    .buttons .console {
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      padding: 10px 20px;
+    }
